@@ -67,6 +67,9 @@ export default function RiwayatTulisan() {
                 <Link href={`/hasil/${item.id}`} className="text-blue-600 hover:underline font-medium text-sm">
                   Baca
                 </Link>
+                <Link href={`/edit/${item.id}`} className="bg-slate-100 hover:bg-slate-200 text-slate-700 px-3 py-1 rounded-lg font-medium text-sm transition">
+                Edit
+                </Link>
               </div>
             </div>
           ))
